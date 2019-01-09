@@ -3,14 +3,20 @@
   }
 
 body{
-    font-family: "Lucida Grande";
-    background-color: #babed8;text-align: center;
+    font-family: Geneva;
+    background-color: #babed8;
+    text-align: center;
 
 
 }
 
 p {
-    font-size: 30px;
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: bold;
 }
 
 #top{
@@ -27,6 +33,14 @@ p {
     margin-right: 7%;  
     background-color: #d1d1d1;text-align: center;
 
+}
+
+#conferences {
+    margin-top: 3%;
+    margin-left: 7%;
+    margin-right: 7%;  
+    background-color: #d1d1d1;text-align: center;
+    text-align: left;
 }
 
 .nav{
@@ -68,4 +82,22 @@ p {
   /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
   .sticky + .content {
     padding-top: 60px;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa-twitter {
+    background: white;
+    color: #babed8;
+  }
+
+  .fa-instagram {
+    background: white;
+    color: #babed8;
   }
