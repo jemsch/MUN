@@ -3,14 +3,20 @@
   }
 
 body{
-    font-family: "Lucida Grande";
-    background-color: #babed8;text-align: center;
+    font-family: Geneva;
+    background-color: #babed8;
+    text-align: center;
 
 
 }
 
 p {
-    font-size: 30px;
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: bold;
 }
 
 #top{
@@ -34,3 +40,30 @@ p {
 }
 
 .main-nav ul li,.secondary-nav ul li{display:inline-block;position:relative;z-index:inherit}.main-nav ul{font-size:13px;text-align:right}.main-nav ul li{text-align:right;margin:0 0 0 30px}.main-nav ul li a,.main-nav ul li a:visited{color:#fff}.main-nav ul li a span,.main-nav ul li a:visited span{font-family:"Source Sans Pro",sans-serif;font-size:.85em;font-weight:400;letter-spacing:3px;font-family:"proxima-nova";font-size:13px;text-transform:uppercase;text-decoration:none;letter-spacing:.1em;font-weight:500;font-style:normal;line-height:2em}.main-nav ul li a:hover,.main-nav ul li a:focus{color:rgba(255,255,255,.7) !important}.main-nav ul li.active-link a,.main-nav ul li.active-link a:visited{color:rgba(11,4,4,.4)}
+#conferences {
+    margin-top: 3%;
+    margin-left: 7%;
+    margin-right: 7%;  
+    background-color: #d1d1d1;text-align: center;
+    text-align: left;
+}
+
+
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa-twitter {
+    background: white;
+    color: #babed8;
+  }
+
+  .fa-instagram {
+    background: white;
+    color: #babed8;
+  }
