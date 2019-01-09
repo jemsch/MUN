@@ -3,7 +3,9 @@
   }
 
 body{
-    font-family: Arial;
+    font-family: "Lucida Grande";
+    background-color: #babed8;text-align: center;
+
 
 }
 
@@ -12,8 +14,7 @@ p {
 }
 
 #top{
-    background-color: #90a0fd;text-align: center;
-    justify-content: center;
+    background-image: linear-gradient(to bottom right,#babed8,#d1d1d1, #babed8); 
     align-items: center;
     padding:10px;
 
@@ -24,10 +25,11 @@ p {
     margin-top: 3%;
     margin-left: 7%;
     margin-right: 7%;  
+    background-color: #d1d1d1;text-align: center;
+
 }
 
 .nav{
-    border:1px solid #ccc;
     border-width:1px 0;
     list-style:none;
     margin:0;
@@ -38,6 +40,7 @@ p {
 
 .nav li{
     display:inline;
+    float: right;
 }
 
 .nav a {
