@@ -29,43 +29,8 @@ p {
 
 }
 
-.nav{
-    border-width:1px 0;
-    list-style:none;
-    margin:0;
-    padding:0;
-    overflow: hidden;
-    text-align:center;
+.main-nav ul,.secondary-nav ul{
+    margin:0;padding:0;list-style:none;line-height:1em;position:relative;z-index:8002
 }
 
-.nav li{
-    display:inline;
-    float: right;
-}
-
-.nav a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-    display:inline-block;
-  }
-  
-  /* Page content */
-  .content {
-    padding: 16px;
-  }
-  
-  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
-    padding-top: 60px;
-  }
+.main-nav ul li,.secondary-nav ul li{display:inline-block;position:relative;z-index:inherit}.main-nav ul{font-size:13px;text-align:right}.main-nav ul li{text-align:right;margin:0 0 0 30px}.main-nav ul li a,.main-nav ul li a:visited{color:#fff}.main-nav ul li a span,.main-nav ul li a:visited span{font-family:"Source Sans Pro",sans-serif;font-size:.85em;font-weight:400;letter-spacing:3px;font-family:"proxima-nova";font-size:13px;text-transform:uppercase;text-decoration:none;letter-spacing:.1em;font-weight:500;font-style:normal;line-height:2em}.main-nav ul li a:hover,.main-nav ul li a:focus{color:rgba(255,255,255,.7) !important}.main-nav ul li.active-link a,.main-nav ul li.active-link a:visited{color:rgba(11,4,4,.4)}
