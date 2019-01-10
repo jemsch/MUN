@@ -1,31 +1,103 @@
-* {
-    box-sizing: border-box;
-  }
+@import url('https://fonts.googleapis.com/css?family=Staatliches|Thasadith:400,400i,700,700i');
+body {
+  margin: 0px;
+  font-family: helvetica;
+}
 
-body{
-    font-family: Geneva;
-    background-color: white;
+#top {
+  text-align: center;
+  background-image: url("SFMUN_Delegates"); 
+  align-items: center;
+  padding:10px;
+
+}
+
+
+.nav-wrapper {
+    width: 100%;
+    height: 120px;
+    display: -webkit-box;
+    background-color: rgba(0, 36, 104, 0.733);
+    z-index: 10;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 42px 0px rgba(0,0,0,0.8);
+    -moz-box-shadow: 0px 0px 42px 0px rgba(0,0,0,0.8);
+    box-shadow: 0px 0px 42px 0px rgba(0,0,0,0.8);
+    position: sticky;
+}
+
+.nav-left {
+	width: 40%;
+    height: 100%;
+	position: relative;
+}
+.nav-right {
+	width: 40%;
+    height: 100%;
+  position: relative;
+}
+
+.nav-center {
+	width: 20%;
+    height: 100%;
+}
+
+.nav-center h1 {
+    color: white;
+    font-family: helvetica;
+    font-size: 24px;
+        /* text-transform: uppercase; */
+    letter-spacing: 2px;
     text-align: center;
-
-
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-p {
-    font-size: 16px;
+.background {
+	width: 100%;
+	height: -webkit-fill-available;
+	background-image: url('https://raw.githubusercontent.com/Oujirou/Jan2019TeamA/master/public/images/background-image-index.jpg');
+	background-size: cover;	
+	top: 0px;
+	position: absolute;
 }
 
-h4 {
-    font-size: 16px;
-    font-weight: bold;
+.nav-button-wrapper {
+	width: fit-content;
+	height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+	display: -webkit-box;
+    transform: translate(-50%, -50%);
 }
 
-#top{
-    background-image: url("SFMUN_Delegates"); 
-    align-items: center;
-    padding:10px;
-
-
+.nav-button {
+	width: 120px;
+	height: 100%;
 }
+
+.nav-button input {
+    width: 100%;
+    height: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 15px;
+    /*cursor: pointer;*/
+}
+
+.nav-button input:hover {
+ 	border-bottom: 2px solid white;	
+}
+
+
 
 #body{
     margin-top: 3%;
@@ -35,91 +107,6 @@ h4 {
 
 }
 
-.main-nav ul,.secondary-nav ul{
-    margin:0;
-    padding:0;list-style:none;
-    line-height:1em;position:relative;z-index:8002
-}
-
-.main-nav ul li,.secondary-nav ul li{
-    display:inline-block;position:relative;z-index:inherit
-}
-.main-nav ul{
-    font-size:13px;
-    text-align:right
-}
-.main-nav ul li{
-        text-align:right;
-        margin:0 0 0 30px
-}
-.main-nav ul li a,.main-nav ul li a:visited{
-    color:black
-}
-.main-nav ul li a span,.main-nav ul li a:visited span{
-    font-family:"Source Sans Pro",sans-serif;font-size:.85em;
-    font-weight:400;letter-spacing:3px;font-family:"proxima-nova";
-    font-size:13px;text-transform:uppercase;text-decoration:none;
-    letter-spacing:.1em;font-weight:500;font-style:normal;line-height:2em
-}
-.main-nav ul li a:hover,.main-nav ul li a:focus{
-        color:black !important
-}
-.main-nav ul li.active-link a,
-.main-nav ul li.active-link a:visited{
-    color:rgba(11,4,4,.4)
-}
-
-
-.cf {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: transparent;
-}
-
-.li {
-  float: left;
-}
-
-.li a, .folder-parent{
-  display: inline-block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.li a:hover, .folders-collection-folder:hover .folder-parent {
-  background-color: red;
-}
-
-.li.folders-collection-folder {
-  display: inline-block;
-}
-
-.folder-child-wrapper {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.folder-child-wrapper a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.folder-child-wrapper a:hover {background-color: #f1f1f1}
-
-.folders-collection-folder:hover .folder-child-wrapper {
-  display: block;
-}
 
 
 #conferences {
