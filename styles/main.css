@@ -10,6 +10,7 @@ body {
   background-image: url("SFMUN_Delegates"); 
   align-items: center;
   padding:10px;
+  text-transform: uppercase; 
 
 }
 
@@ -45,28 +46,7 @@ body {
     height: 100%;
 }
 
-.nav-center h1 {
-    color: white;
-    font-family: helvetica;
-    font-size: 24px;
-        /* text-transform: uppercase; */
-    letter-spacing: 2px;
-    text-align: center;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
-.background {
-	width: 100%;
-	height: -webkit-fill-available;
-	background-image: url('https://raw.githubusercontent.com/Oujirou/Jan2019TeamA/master/public/images/background-image-index.jpg');
-	background-size: cover;	
-	top: 0px;
-	position: absolute;
-}
 
 .nav-button-wrapper {
 	width: fit-content;
@@ -93,7 +73,8 @@ body {
     font-family: helvetica;
     font-weight: 300;
     font-size: 15px;
-    /*cursor: pointer;*/
+    text-transform: uppercase; 
+
 }
 
 
