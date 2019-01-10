@@ -70,19 +70,19 @@ h4 {
 }
 
 
-ul {
+.cf {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: transparent;
 }
 
-li {
+.li {
   float: left;
 }
 
-li a, .folder-parent{
+.li a, .folder-parent{
   display: inline-block;
   color: white;
   text-align: center;
@@ -90,11 +90,11 @@ li a, .folder-parent{
   text-decoration: none;
 }
 
-li a:hover, .folders-collection-folder:hover .folder-parent {
+.li a:hover, .folders-collection-folder:hover .folder-parent {
   background-color: red;
 }
 
-li.folders-collection-folder {
+.li.folders-collection-folder {
   display: inline-block;
 }
 
