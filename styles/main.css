@@ -2,8 +2,8 @@
 body {
   margin: 0px;
   font-family: helvetica;
-  background-image: url("../assets/images/SFMUN_Delegates.jpg");
-  background-size: 100%;
+  
+  
 }
 
 .parallax {
@@ -11,7 +11,7 @@ body {
     background-image: url("../assets/images/SFMUN_Delegates.jpg");
   
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 780px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -22,7 +22,7 @@ body {
 
 #top {
   text-align: center;
-  background-size: 100%;
+  background-color: rgba(255, 255, 255, 0.801) ;
   align-items: center;
   padding:10px;
   text-transform: uppercase; 
