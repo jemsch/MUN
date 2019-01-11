@@ -2,17 +2,40 @@
 body {
   margin: 0px;
   font-family: helvetica;
-  background-image: url("SFMUN_Delegates");
+  background-image: url("../assets/images/SFMUN_Delegates.jpg");
+  background-size: 100%;
 }
+
+.parallax {
+    /* The image used */
+    background-image: url("../assets/images/SFMUN_Delegates.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 #top {
   text-align: center;
-  background-image: url("SFMUN_Delegates"); 
+  background-size: 100%;
   align-items: center;
   padding:10px;
   text-transform: uppercase; 
-
 }
+
+
+#top-about {
+    text-align: center;
+    background-image: url("../assets/images/IMG_7448.JPG"); 
+    align-items: center;
+    padding:10px;
+    text-transform: uppercase; 
+  }
 
 p{
     font-size:15px;
