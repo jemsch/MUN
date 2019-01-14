@@ -9,7 +9,21 @@ body {
     background-image: url("../assets/images/SFMUN_Delegates.jpg");
   
     /* Set a specific height */
-    min-height: 780px; 
+    min-height: 600px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .parallax-about {
+    /* The image used */
+    background-image: url("../assets/images/IMG_7448.JPG");
+  
+    /* Set a specific height */
+    min-height: 600px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -20,7 +34,7 @@ body {
 
 #top {
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.801) ;
+  background-color: rgba(255, 255, 255, 0.801);
   align-items: center;
   padding:10px;
   text-transform: uppercase; 
@@ -29,7 +43,7 @@ body {
 
 #top-about {
     text-align: center;
-    background-image: url("../assets/images/IMG_7448.JPG"); 
+    background-color: rgba(94, 156, 228, 0.637);
     align-items: center;
     padding:10px;
     text-transform: uppercase; 
@@ -275,3 +289,4 @@ h4, h5 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
