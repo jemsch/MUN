@@ -34,7 +34,8 @@ body {
 
 #top {
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.801);
+  /*background-color: rgba(255, 255, 255, 0.801);*/
+  background-color: rgba(94, 156, 228, 0.637);
   align-items: center;
   padding:10px;
   text-transform: uppercase; 
@@ -227,7 +228,8 @@ h4, h5 {
   }
 
   .navigation-bar   {
-    background-color: rgba(0, 71, 104, 0.733);
+    /*background-color: rgba(0, 71, 104, 0.733);*/
+    background-color: #50779c;
     height: 100px;
 	width: 100%;
     background-repeat: repeat-x;
