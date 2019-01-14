@@ -94,7 +94,7 @@ h3 {
     font-family: 'helvetica';
     font-weight: 400;
     letter-spacing: 2px;
-    text-align: centerr;
+    text-align: center;
     line-height: 1.5; 
 
 }
@@ -113,7 +113,7 @@ h4, h5 {
 }
 
 
-
+/*
 
 
 .nav-wrapper {
@@ -175,14 +175,15 @@ h4, h5 {
     font-weight: 300;
     font-size: 15px;
     text-transform: uppercase; 
-
+   
+    
 }
 
 
 .nav-button input:hover {
  	border-bottom: 2px solid white;	
 
-}
+}*/
 
 
 
@@ -225,4 +226,67 @@ h4, h5 {
 
   }
 
+  .navigation-bar   {
+    background-color: rgba(0, 71, 104, 0.733);
+    height: 100px;
+	width: 100%;
+    background-repeat: repeat-x;
+    -webkit-box-shadow: 0px 0px 42px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 42px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 42px 0px rgba(0,0,0,0.5);
+    line-height: 100px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.navigation-bar ul   {
+	padding: 0px;
+    margin: 0px;
+
+
+}
+.navigation-bar li    {
+	list-style-type: none;
+	padding: 0px;
+	height: 24px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+    display:inline;
+
+
+
   
+}
+.navigation-bar li a    {
+    color: white;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+
+	text-decoration: none;
+	box-shadow: 2xp 2px 3px inset;
+	border-radius: 5px;
+	padding-right: 1em;
+	padding-left: 1em;
+	line-height: 2em;
+    margin-right: 16px;
+   
+
+
+
+}
+
+.navigation-bar li a:hover {
+    color:black;
+}
+
+#topnavCentered {
+
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
