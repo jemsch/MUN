@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Staatliches|Thasadith:400,400i,700,700i');
-body {
-  margin: 0px;
-  font-family: helvetica;
-}
 
+/*-----PARALLAX-----*/
 .parallax {
     /* The image used */
     background-image: url("../assets/images/SFMUN_Delegates.jpg");
@@ -16,9 +13,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
   
-  .parallax-about {
+.parallax-about {
     /* The image used */
     background-image: url("../assets/images/IMG_7448.JPG");
   
@@ -30,25 +27,16 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-
-#top {
-  text-align: center;
-  /*background-color: rgba(255, 255, 255, 0.801);*/
-  background-color: rgba(94, 156, 228, 0.637);
-  align-items: center;
-  padding:10px;
-  text-transform: uppercase; 
 }
 
 
-#top-about {
-    text-align: center;
-    background-color: rgba(94, 156, 228, 0.637);
-    align-items: center;
-    padding:10px;
-    text-transform: uppercase; 
-  }
+
+/*-----TEXT PRESETS-----*/
+body {
+    margin: 0px;
+    font-family: helvetica;
+    letter-spacing: 2px;
+}
 
 p{
     font-size:17px;
@@ -57,35 +45,31 @@ p{
     padding-right: 200px;
     font-family: 'helvetica';
     font-weight: 100;
-    letter-spacing: 2px;
     text-align: left;
     line-height: 1.5;
 }
 
-h1
-{
+h1 {
     font-size: 35px;
     color:black;
     padding-left: 400px;
     padding-right: 400px;
     font-family: 'helvetica';
     font-weight: 400;
-    letter-spacing: 2px;
     text-align: center;
     line-height: 1.5; 
 }
 
-h2{
+h2 {
     font-size: 30px;
     color:black;
     padding-left: 400px;
     padding-right: 400px;
     font-family: 'helvetica';
     font-weight: 400;
-    letter-spacing: 2px;
     text-align: center;
-    line-height: 1.5; }
-
+    line-height: 1.5; 
+}
 
 h3 {
     font-size: 22px;
@@ -94,7 +78,6 @@ h3 {
     padding-right: 200px;
     font-family: 'helvetica';
     font-weight: 400;
-    letter-spacing: 2px;
     text-align: center;
     line-height: 1.5; 
 
@@ -107,126 +90,70 @@ h4, h5 {
     padding-right: 200px;
     font-family: 'helvetica';
     font-weight: 400;
-    letter-spacing: 2px;
     text-align: left;
     line-height: 1.5; 
 
 }
 
 
-/*
 
-
-.nav-wrapper {
-    width: 100%;
-    height: 120px;
-    display: -webkit-box;
-    background-color: rgba(0, 71, 104, 0.733);
-    z-index: 10;
-    position: relative;
-    -webkit-box-shadow: 0px 0px 42px 0px rgba(0,0,0,0.5);
-    -moz-box-shadow: 0px 0px 42px 0px rgba(0,0,0,0.5);
-    box-shadow: 0px 0px 42px 0px rgba(0,0,0,0.5);
-    position: sticky;
-}
-
-.nav-left {
-	width: 40%;
-    height: 100%;
-	position: relative;
-}
-.nav-right {
-	width: 40%;
-    height: 100%;
-  position: relative;
-}
-
-
-
-.nav-center {
-	width: 20%;
-    height: 100%;
-}
-
-
-
-.nav-button-wrapper {
-	width: fit-content;
-	height: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-	display: -webkit-box;
-    transform: translate(-50%, -50%);
-}
-
-.nav-button {
-	width: 120px;
-	height: 100%;
-}
-
-.nav-button input {
-    width: 100%;
-    height: 100%;
-    background: none;
-    outline: none;
-    border: none;
-    color: white;
-    font-family: helvetica;
-    font-weight: 300;
-    font-size: 15px;
-    text-transform: uppercase; 
-   
-    
-}
-
-
-.nav-button input:hover {
- 	border-bottom: 2px solid white;	
-
-}*/
-
-
-
+/*-----DIV IDs-----*/
 #body{
     margin-top: 3%;
     margin-left: 7%;
     margin-right: 7%;  
-
-
-
 }
-
-
 
 #conferences {
     margin-top: 3%;
     margin-left: 7%;
     margin-right: 7%;  
-    background-color: #d1d1d1;text-align: center;
+    background-color: #d1d1d1;
+    text-align: center;
     text-align: left;
+}
+
+#top {
+    text-align: center;
+    background-color: rgba(94, 156, 228, 0.637);
+    align-items: center;
+    padding:10px;
+    text-transform: uppercase; 
+}
+  
+#top-about {
+    text-align: center;
+    background-color: rgba(94, 156, 228, 0.637);
+    align-items: center;
+    padding:10px;
+    text-transform: uppercase; 
 }
 
 
 
-  .fa {
+/*-----SOCIAL LINKS-----*/
+.fa {
     padding: 20px;
     font-size: 50px;
     width: 30px;
     text-align: center;
     text-decoration: none;
-  }
-  .fa-twitter {
-    background: white;
+}
+
+.fa-twitter {
+    background: white; 
     color: black;
-  }
+}
 
   .fa-instagram {
     background: white;
     color: black;
 
-  }
+}
 
+
+
+/*-----NAVIGATION BAR-----*/
   .navigation-bar   {
     /*background-color: rgba(0, 71, 104, 0.733);*/
     background-color: #50779c;
@@ -260,7 +187,8 @@ h4, h5 {
 
   
 }
-.navigation-bar li a, .dropbtn    {
+
+.navigation-bar li a    {
     color: white;
     font-family: helvetica;
     font-weight: 300;
@@ -277,42 +205,15 @@ h4, h5 {
 	line-height: 2em;
     margin-right: 16px;
    
+
+
+
 }
 
-.navigation-bar li a:hover,  .dropdown:hover .dropbtn {
-    color:black;
-}
-
-/*#topnavCentered {
+#topnavCentered {
 
     top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}*/
-
-li.dropdown {
-    display: inline-block;
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: black;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
