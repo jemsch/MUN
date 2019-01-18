@@ -225,6 +225,12 @@ h5 {
 
 }
 
+#list {
+    text-align: center;
+    line-height: 2;
+}
+    
+
 /*-----NEW NAV BAR-----*/
 
 a {
