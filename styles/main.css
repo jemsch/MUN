@@ -17,6 +17,33 @@
 }
 
 
+img {
+width:60%;
+height: auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+.column {
+    float: left;
+    padding: 10px;
+    text-align: center;
+
+  }
+  
+.column.side {
+    width: 47%;
+    text-align: center;
+  }
+
+.column.side h4 {
+    width: 400px;
+}
 
 
 
@@ -135,7 +162,7 @@ h3 {
 
 }
 
-h4, h5 {
+h4 {
     font-size: 22px;
     color:black;
     padding-left: 200px;
@@ -143,6 +170,18 @@ h4, h5 {
     font-family: 'helvetica';
     font-weight: 400;
     text-align: left;
+    line-height: 1.5; 
+
+}
+
+h5 {
+    font-size: 28px;
+    color:black;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: 'helvetica';
+    font-weight: 400;
+    text-align: center;
     line-height: 1.5; 
 
 }
@@ -200,6 +239,12 @@ h4, h5 {
     color: black;
 
 }
+
+#list {
+    text-align: center;
+    line-height: 2;
+}
+    
 
 /*-----NEW NAV BAR-----*/
 
