@@ -49,6 +49,21 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.parallax-conference {
+    /* The image used */
+    background-image: url("../assets/images/conference\ pic.jpeg");
+  
+    /* Set a specific height */
+    min-height: 600px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .parallax-contact {
     /* The image used */
     background-image: url("../assets/images/IMG_2102.jpeg");
