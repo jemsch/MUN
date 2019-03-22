@@ -29,7 +29,7 @@ height: auto;
     
   }
 
-.column {
+  .column {
     float: left;
     padding: 10px;
     text-align: center;
@@ -41,9 +41,12 @@ height: auto;
     text-align: center;
   }
 
-.column.side h4 {
-    width: 400px;
-}
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 
 
 
