@@ -1,0 +1,90 @@
+h1 {
+    color: red;
+}
+
+.body{
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;  
+    margin-bottom: 3%
+}
+
+
+p{
+    font-size:17px;
+    color:black;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'helvetica';
+    font-weight: 100;
+    text-align: left;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 35px;
+    color:black;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'helvetica';
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5; 
+}
+
+h2 {
+    font-size: 30px;
+    color:black;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'helvetica';
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5; 
+}
+
+h3 {
+    font-size: 22px;
+    color:black;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'helvetica';
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5; 
+}
+
+h4 {
+    font-size: 22px;
+    color:black;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'helvetica';
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.5; 
+
+}
+
+h5 {
+    font-size: 28px;
+    color:black;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'helvetica';
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5; 
+}
+
+h6 {
+  font-size: 16px;
+  color:black;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: 'helvetica';
+  font-weight: 400;
+  text-align: left;
+  font-style: italic;
+  margin-top: 0px;
+}
