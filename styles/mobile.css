@@ -13,8 +13,8 @@ h1 {
 p{
     font-size:17px;
     color:black;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
     font-family: 'helvetica';
     font-weight: 100;
     text-align: left;
@@ -55,7 +55,7 @@ h3 {
 }
 
 h4 {
-    font-size: 22px;
+    font-size: 20px;
     color:black;
     padding-left: 10%;
     padding-right: 10%;
@@ -78,13 +78,17 @@ h5 {
 }
 
 h6 {
-  font-size: 16px;
-  color:black;
   padding-left: 10%;
   padding-right: 10%;
-  font-family: 'helvetica';
-  font-weight: 400;
-  text-align: left;
-  font-style: italic;
-  margin-top: 0px;
 }
+
+.body ul {
+    font-size:17px;
+    color:black;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'helvetica';
+    font-weight: 100;
+    text-align: left;
+    line-height: 1.5;
+  }

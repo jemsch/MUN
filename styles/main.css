@@ -121,8 +121,84 @@ body {
     letter-spacing: 2px;
 }
 
+p{
+    font-size:17px;
+    color:black;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: 'helvetica';
+    font-weight: 100;
+    text-align: left;
+    line-height: 1.5;
+}
 
+h1 {
+    font-size: 35px;
+    color:black;
+    padding-left: 400px;
+    padding-right: 400px;
+    font-family: 'helvetica';
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5; 
+}
 
+h2 {
+    font-size: 30px;
+    color:black;
+    padding-left: 400px;
+    padding-right: 400px;
+    font-family: 'helvetica';
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5; 
+}
+
+h3 {
+    font-size: 22px;
+    color:black;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: 'helvetica';
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5; 
+}
+
+h4 {
+    font-size: 22px;
+    color:black;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: 'helvetica';
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.5; 
+
+}
+
+h5 {
+    font-size: 28px;
+    color:black;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: 'helvetica';
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5; 
+}
+
+h6 {
+  font-size: 16px;
+  color:black;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-family: 'helvetica';
+  font-weight: 400;
+  text-align: left;
+  font-style: italic;
+  margin-top: 0px;
+}
 
 h3 a {
   color: #50779c;
@@ -187,26 +263,22 @@ a {
 
 /*-----SOCIAL LINKS-----*/
 .fa {
-  padding: 0px; 
-  font-size: 60px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  float: right;
+    padding: 0px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .fa-twitter {
-    /* background: white;  */
+    background: white; 
     color: black;
 }
 
-  /* .fa-instagram {
-    /* background: white; */
-    color: blue;
+  .fa-instagram {
+    background: white;
+    color: black;
 
-} */
-
-
+}
 
 ul {
     text-align: center;
@@ -243,15 +315,11 @@ a {
     background: white;
       display: block;
       float: left;
-      Padding: 1rem;
+      padding: 1rem;
       position: relative;
       text-decoration: none;
     transition-duration: 0.5s;
   }
-
-  
- 
-    
     
   nav li a {
     color:black;
