@@ -55,7 +55,7 @@ height: auto;
 /*-----PARALLAX-----*/
 .parallax {
     /* The image used */
-    background-image: url("../assets/images/SFMUN_Delegates.jpg");
+    background-image: url("../assets/images/BMUN_Photo.JPG");
   
     /* Set a specific height */
     min-height: 600px; 
@@ -69,7 +69,7 @@ height: auto;
   
 .parallax-about {
     /* The image used */
-    background-image: url("../assets/images/IMG_7448.JPG");
+    background-image: url("../assets/images/SFMUN_Photo.jpg");
   
     /* Set a specific height */
     min-height: 600px; 
@@ -83,7 +83,7 @@ height: auto;
 
 .parallax-conference {
     /* The image used */
-    background-image: url("../assets/images/conference\ pic.jpeg");
+    background-image: url("../assets/images/Simulation_Photo.jpeg");
   
     /* Set a specific height */
     min-height: 600px; 
@@ -97,7 +97,7 @@ height: auto;
 
 .parallax-contact {
     /* The image used */
-    background-image: url("../assets/images/IMG_2102.jpeg");
+    background-image: url("../assets/images/BMUN_Photo_2.JPG");
   
     /* Set a specific height */
     min-height: 600px; 
@@ -107,6 +107,48 @@ height: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.parallax-photos {
+  /* The image used */
+  background-image: url("../assets/images/Oracle_Photo.JPG");
+
+  /* Set a specific height */
+  min-height: 600px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-isdnd {
+  /* The image used */
+  background-image: url("../assets/images/SFMUN_Photo_2.JPG");
+
+  /* Set a specific height */
+  min-height: 600px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-leadership {
+  /* The image used */
+  background-image: url("../assets/images/Oracle_Photo_2.JPEG");
+
+  /* Set a specific height */
+  min-height: 600px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #line {
@@ -135,8 +177,8 @@ p{
 h1 {
     font-size: 35px;
     color:black;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 20%;
+    padding-right: 20%;
     font-family: 'helvetica';
     font-weight: 400;
     text-align: center;
@@ -146,8 +188,8 @@ h1 {
 h2 {
     font-size: 30px;
     color:black;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 15%;
+    padding-right: 15%;
     font-family: 'helvetica';
     font-weight: 400;
     text-align: center;
@@ -157,8 +199,8 @@ h2 {
 h3 {
     font-size: 22px;
     color:black;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 10%;
+    padding-right: 10%;
     font-family: 'helvetica';
     font-weight: 400;
     text-align: center;
@@ -355,10 +397,12 @@ a {
      visibility: visible;
      opacity: 1;
      display: block;
-  }
+     z-index: 1;  
+    }
   
   nav ul li ul li {
       clear: both;
     width: 100%;
   }
+
 

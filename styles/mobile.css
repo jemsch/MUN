@@ -92,3 +92,97 @@ h6 {
     text-align: left;
     line-height: 1.5;
   }
+
+  /* ___ */
+
+  nav ul, nav:active ul { 
+
+    display: none;
+    position: absolute;
+    padding: 20px;
+    background: #fff;
+    border: 5px solid #444;
+    right: 20px;
+    top: 60px;
+    width: 50%;
+    border-radius: 4px 0 4px 4px;
+
+}
+
+nav li {
+
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+
+}
+
+nav:hover ul {
+
+    display: block;
+
+}
+
+parallax {
+    /* The image used */
+    background-image: url("../assets/images/SFMUN_Delegates.jpg");
+  
+    /* Set a specific height */
+    min-height: 100px; 
+
+}
+  
+.parallax-about {
+    /* The image used */
+    background-image: url("../assets/images/IMG_7448.JPG");
+  
+    /* Set a specific height */
+    min-height: 100px; 
+
+}
+
+.parallax-conference {
+    /* The image used */
+    background-image: url("../assets/images/conference\ pic.jpeg");
+  
+    /* Set a specific height */
+    min-height: 100px
+}
+
+.parallax-contact {
+    /* The image used */
+    background-image: url("../assets/images/IMG_2102.jpeg");
+  
+    /* Set a specific height */
+    min-height: 100px;
+}
+
+
+.parallax-photos {
+    /* The image used */
+    background-image: url("../assets/images/Oracle_Photo.JPG");
+  
+    /* Set a specific height */
+    min-height: 100px; 
+
+  }
+  
+  .parallax-isdnd {
+    /* The image used */
+    background-image: url("../assets/images/SFMUN_Photo_2.JPG");
+  
+    /* Set a specific height */
+    min-height: 100px; 
+  
+
+  }
+  
+  .parallax-leadership {
+    /* The image used */
+    background-image: url("../assets/images/Oracle_Photo_2.JPEG");
+  
+    /* Set a specific height */
+    min-height: 100px; 
+
+  }
