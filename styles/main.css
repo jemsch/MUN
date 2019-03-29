@@ -26,12 +26,13 @@ height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+    height: 20%;
+    width: 20%px;
   }
 
   .column {
     float: left;
-    padding: 10px;
+    padding: 2px;
     text-align: center;
 
   }
@@ -242,6 +243,8 @@ h6 {
   margin-top: 0px;
 }
 
+
+
 h3 a {
   color: #50779c;
   text-decoration: none;
@@ -406,3 +409,114 @@ a {
   }
 
 
+
+/*------------*/
+
+#team{
+  display:flex;
+  flex-wrap: wrap;
+  flex-grow:3;
+}
+.card {
+  width:70%;
+  /* min-width: 30%; */
+  height: 60%;
+  overflow: hidden;
+  position: relative;
+  margin:0 0.5% 18% 0%;
+  display:inline-block
+}
+.card:nth-of-type(3n){
+  margin-right:0;
+}
+.card img {
+  width: 100%;
+  min-height:100%;
+  transition:all 0.9s
+}
+/* .card:hover img {
+ transform:scale(1.2,1.2)
+} */
+.data {
+  position: absolute;
+  bottom: 5%;
+  background: #50779c;
+  text-align:center;
+  width: 90%;
+  height: 70px;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 10px, 5%;
+  box-sizing: border-box;
+  opacity: 0.8;
+  transition: all 0.4s
+}
+
+.card:hover .data {
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  opacity: 0.9;
+  padding:45px 10%;
+}
+
+.data h2 {
+  margin: 0 0 2px 0;
+  transition:color 0.4s;
+  text-align: center;
+  font-size: 2vw;
+  padding: 0px 0px;
+  color: white;
+}
+
+.data i {
+  color: white;
+  font-size: 1em;
+
+}
+  
+
+.data p {
+  opacity: 0;
+  text-align:center;
+    transition: all 0.2s;
+    padding: 0px 0px;
+    color: white;
+    font-size: .9em;
+
+
+}
+
+.card:hover .data p,.card:hover .data a {
+  opacity: 1
+}
+
+.data a:hover,.card:hover h2{
+  color:white;
+}
+
+.flexcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  align-content: center;
+
+}
+
+
+@media (max-width:799px){
+  .card {width:85%;}
+
+  .data h2 {
+    font-size: 22px;
+  }
+
+
+ .column.side {
+    width: 100%;
+    text-align: center;
+  }
+}
