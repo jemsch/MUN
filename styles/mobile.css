@@ -1,6 +1,7 @@
-h1 {
-    color: red;
-}
+@media only screen and (max-width: 576px) 
+{
+
+
 
 .body{
     margin-top: 1%;
@@ -174,3 +175,121 @@ parallax {
     width: 47%;
     text-align: center;
   }
+
+  /*---NAV MOBIILE---*/
+
+    #nav .column.mayHide {
+        display:none;
+    }
+
+    /*override the original settings*/
+    #nav ul {
+        width: 100%; 
+        display: none;
+        border-radius:0;
+         
+    }
+	
+    #nav li {
+        position:relative;
+        display:block;
+        font-size:20px;
+        text-align:left;
+        border-bottom: 1px solid #50779c;
+        border-radius:0;
+    }
+
+    #nav .full-width {
+        position: relative;
+    }
+    
+    #nav .dropdown {
+        position:relative;
+        border:none;
+        border-radius:0;
+        box-shadow:none;
+        background-color:#FFF;
+        text-align:center;
+        padding:0px;
+        margin:0px;
+        background-color:#FFF;
+        white-space:nowrap;
+        font-size:13px;
+    }
+
+    #nav .dd-inner {
+        
+    }
+    
+    #nav .offset300 {
+        left:0;
+    }
+
+    #nav .full-width .dropdown {
+        width: auto;
+    }
+        
+    #nav .dd-inner
+    {
+        margin:0;
+        background:none;
+        text-align:left;
+    }
+    
+    /*turn each column to list vertically instead of horizontally */
+    #nav .column {
+        width:auto;
+        padding:0;
+        border:none;
+        display:block;
+    }
+
+    /*move the arrow icon to right*/
+    #nav .caret {
+        position:absolute;
+        left:auto;
+        right:14px;
+        top:20px;
+        border-width:5px;
+    }
+
+
+    /* All the following are for the .menu-icon (pure CSS) */
+    #nav .menu-icon {
+        font-size:32px;/*icon size*/
+		display: block;
+        position: relative;
+		width: 40px;
+		height:36px;
+        text-align:center;
+		cursor: pointer;
+		-moz-user-select:none;		
+        -webkit-user-select: none;
+        background-color: #fff;
+
+        margin-bottom:6px;
+        /*align the icon to the right*/
+        margin-left: auto;
+        margin-right: 11px;
+    }
+
+    #nav .menu-icon::before {
+        content: "";
+        position: absolute;
+        top: 0.25em;
+        left: 4px;
+        width: 1em;
+        height: 0.125em;
+        border-top: 0.375em double #50779c;
+        border-bottom: 0.125em solid #50779c;
+        box-sizing: content-box;
+    }
+
+    #nav .menu-icon-active {
+        background-color: #50779c;
+    }
+
+    #nav .menu-icon-active::before {
+        border-color: #fff;
+    }
+}

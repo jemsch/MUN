@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="styles/main.css">
   <link rel="stylesheet" type="text/css" href="styles/override.css">
-  <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="styles/mobile.css" />
+  <script src="styles/nav.js" type="text/javascript"></script>  
+  <link rel="stylesheet" type="text/css" href="styles/mobile.css" />
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -26,27 +27,27 @@
       </div>
     </div>
 
-    <div id="navWrapper">
-      <nav role="navigation">
-        <ul>
-          <li><a href="index.html">Welcome</a>
-          <li><a href="Pages/about.html">About</a>
-            <ul class="dropdown" aria-haspopup="true" aria-label="submenu">
-              <li><a href="Pages/about/isdnd.html">IS: D&D</a></li>
-              <li><a href="Pages/about/leadership.html">Leadership</a></li>
-              <!-- <li><a href="Pages/about/alumni.html">Alumni</a></li> -->
-            </ul>
+    <nav id="nav">
+      <div class="menu-icon"></div>
+      <ul>
+          <li class="no-sub"><a class="top-heading" href="index.html">Welcome</a></li>
+          <li>
+              <a class="top-heading" href="Pages/about.html">About</a>
+              <i class="caret"></i>
+              <div class="dropdown">
+                      <ul class="column">
+                          <li><a href="Pages/about/isdnd.html">IS: D&D</a></li>
+                          <li><a href="Pages/about/leadership.html">Leadership</a></li>
+                      </ul>
+              </div>
           </li>
-          <li><a href="Pages/conferences.html">Conferences</a></li>
-          <li><a href="Pages/contact.html">Contact</a></li>
-          <li><a href="Pages/photos.html">Photos</a></li>
-          <li><a href="Pages/media.html">Media</a></li>
+          <li class="no-sub"><a class="top-heading" href="Pages/conferences.html">Conferences</a></li>
+          <li class="no-sub"><a class="top-heading" href="Pages/contact.html">Contact</a></li>
+          <li class="no-sub"><a class="top-heading" href="Pages/photos.html">Photos</a></li>
+          <li class="no-sub"><a class="top-heading" href="Pages/media.html">Media</a></li>
+      </ul>
+  </nav>
 
-        </ul>
-      </nav>
-    </div>
-
-    <div id="line"></div>
 
 
     <div class="body">
