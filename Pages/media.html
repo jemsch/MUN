@@ -2,14 +2,18 @@
 <html>
 
 <head>
-  <title>Social Media</title>
+  <title>Media</title>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="../styles/main.css">
   <link rel="stylesheet" type="text/css" href="../styles/override.css">
-  <link rel="stylesheet" type="text/css" href="../styles/mobile.css" >
-  <script src="../styles/nav.js" type="text/javascript"></script>  
+  <link rel="stylesheet" type="text/css" href="../styles/mobile.css">
+
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900'>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script  src="../styles/script.js"></script>
+
 </head>
 
 
@@ -17,34 +21,41 @@
   <div class="flex-container">
 
 
-    <div class="parallax-about">
-      <div id="top-about">
+    <div class="parallax">
+      <div id="top">
         <h2><strong>Design Tech High School</strong></h2>
         <h1>Model United Nations Team</h1>
         <h3>International Studies: Debate and Diplomacy</h3>
       </div>
     </div>
 
-    <nav id="nav">
-      <div class="menu-icon"></div>
-      <ul>
-          <li class="no-sub"><a class="top-heading" href="../index.html">Welcome</a></li>
-          <li>
-              <a class="top-heading" href="about.html">About</a>
-              <i class="caret"></i>
-              <div class="dropdown">
-                      <ul class="column">
-                          <li><a href="about/isdnd.html">IS: D&D</a></li>
-                          <li><a href="about/leadership.html">Leadership</a></li>
-                      </ul>
-              </div>
+    <!-- partial:index.partial.html -->
+<div id='main-menu' class='main-menu'>
+    <div class='container-menu'>
+      <nav class='navigation'>
+        <span class='hamburger-menu'>
+          <span class='burger-1'></span>
+          <span class='burger-2'></span>
+          <span class='burger-3'></span>
+        </span>
+        <ul class='core-menu'>
+          <li><a href='../index.html'>Welcome</a></li>
+          <li><a href='#'>About<span class='toggle'></a>
+          <ul class='dropdown'>
+              <li><a href='about/team.html'>MUN</a></li>
+              <li><a href='about/isdnd.html'>IS: D&D</a></li>
+              <li><a href='about/leadership.html'>Leadership</a></li>
+              <!--<li><a href='Pages/about/testimonials.html'>Testimonials</a></li>-->
+            </ul>
           </li>
-          <li class="no-sub"><a class="top-heading" href="conferences.html">Conferences</a></li>
-          <li class="no-sub"><a class="top-heading" href="contact.html">Contact</a></li>
-          <li class="no-sub"><a class="top-heading" href="photos.html">Photos</a></li>
-          <li class="no-sub"><a class="top-heading" href="media.html">Media</a></li>
-      </ul>
-  </nav>
+          <li><a href='conferences.html'>Conferences</a></li>
+          <li><a href='contact.html'>Contact</a></li>
+          <li><a href='photos.html'>Photos</a></li>
+          <li><a href='media.html'>Media</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
 
 
     <div class="body">
