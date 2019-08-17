@@ -34,7 +34,6 @@ height: auto;
     float: left;
     padding: 2px;
     text-align: center;
-
   }
   
 .column.side {
@@ -42,6 +41,17 @@ height: auto;
     text-align: center;
   }
 
+  .column.middle {
+    margin-left: 26.5%;
+    margin-right: 26.5%;
+    width: 47%;
+    text-align: center;
+  }
+
+  .row {
+    margin-left: 5%;
+    margin-right: 5%;
+    }
   .row:after {
     content: "";
     display: table;

@@ -186,3 +186,20 @@ parallax {
     min-height: 100px; 
 
   }
+  .column {
+    float: left;
+    padding: 2px;
+    text-align: center;
+  }
+  
+.column.side {
+    width: 47%;
+    text-align: center;
+  }
+
+  .column.middle {
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 47%;
+    text-align: center;
+  }
