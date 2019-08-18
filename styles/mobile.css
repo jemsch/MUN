@@ -11,8 +11,8 @@
 }
 
 
-p{
-    font-size:9px;
+p {
+    font-size:16px;
     color:black;
     padding-left: 10%;
     padding-right: 10%;
@@ -81,6 +81,10 @@ h5 {
 h6 {
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.body li {
+  padding-bottom: 20px;
 }
 
 .body ul {
@@ -171,7 +175,7 @@ parallax {
   }
 
   .data p {
-    font-size: 1.3em;
+    font-size: .5em;
   }
 
   /*---NAV MOBIILE---*/
