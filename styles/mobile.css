@@ -158,22 +158,20 @@ parallax {
     min-height: 100px; 
 
   }
-  .column {
-    float: left;
-    padding: 2px;
-    text-align: center;
-  }
   
 .column.side {
-    width: 47%;
+    width: 100%;
     text-align: center;
   }
 
   .column.middle {
-    margin-left: 0%;
-    margin-right: 0%;
-    width: 47%;
-    text-align: center;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .data p {
+    font-size: 1.3em;
   }
 
   /*---NAV MOBIILE---*/
@@ -208,7 +206,6 @@ parallax {
     .hamburger-menu {
       display:block;
       text-align:center;
-      padding-right:60px;
       float:none;
       width:100%;
     }
@@ -272,7 +269,6 @@ parallax {
       top:0;
       width:100%;
       position:relative;
-      padding:0 20px;
     }
 
    
