@@ -4,33 +4,33 @@
 
 
 .body{
-    margin-top: 1%;
-    margin-left: 2%;
-    margin-right: 2%;  
-    margin-bottom: 3%
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-right: 2%;  
+  margin-bottom: 3%
 }
 
 
 p {
-    font-size:16px;
-    color:black;
-    padding-left: 10%;
-    padding-right: 10%;
-    font-family: 'helvetica';
-    font-weight: 100;
-    text-align: left;
-    line-height: 1.5;
+  font-size:16px;
+  color:black;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: 'helvetica';
+  font-weight: 100;
+  text-align: left;
+  line-height: 1.5;
 }
 
 h1 {
-    font-size: 35px;
-    color:black;
-    padding-left: 10%;
-    padding-right: 10%;
-    font-family: 'helvetica';
-    font-weight: 400;
-    text-align: center;
-    line-height: 1.5; 
+  font-size: 35px;
+  color:black;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: 'helvetica';
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.5; 
 }
 
 h2 {
@@ -45,14 +45,14 @@ h2 {
 }
 
 h3 {
-    font-size: 22px;
-    color:black;
-    padding-left: 10%;
-    padding-right: 10%;
-    font-family: 'helvetica';
-    font-weight: 400;
-    text-align: center;
-    line-height: 1.5; 
+  font-size: 22px;
+  color:black;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: 'helvetica';
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.5; 
 }
 
 h4 {
@@ -175,7 +175,7 @@ parallax {
   }
 
   .data p {
-    font-size: .5em;
+    font-size: .7em;
   }
 
   /*---NAV MOBIILE---*/
@@ -222,10 +222,10 @@ parallax {
     right:0;
     margin-right:25px;
     background:black;
-      -webkit-transition:.2s ease;
-      -ms-transition:.2s ease;
-      -moz-transition:.2s ease;
-      -o-transition:.2s ease;
+    -webkit-transition:.2s ease;
+    -ms-transition:.2s ease;
+    -moz-transition:.2s ease;
+    -o-transition:.2s ease;
     transition:.2s ease; 
     }
     .burger-1 {

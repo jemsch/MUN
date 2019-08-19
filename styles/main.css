@@ -513,17 +513,16 @@ li span.toggle2 {
 .data i {
   color: white;
   font-size: 1em;
-
 }
   
 
 .data p {
   opacity: 0;
   text-align:center;
-    transition: all 0.2s;
-    padding: 0px 0px;
-    color: white;
-    font-size: .8em;
+  transition: all 0.2s;
+  padding: 0px 0px;
+  color: white;
+  font-size: .9em;
 }
 
 .card:hover .data p,.card:hover .data a {
@@ -558,7 +557,4 @@ li span.toggle2 {
   }
 
 
-  .data p {
-    font-size: .9em;
-}
 }
