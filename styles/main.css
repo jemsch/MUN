@@ -542,6 +542,40 @@ li span.toggle2 {
 
 }
 
+/*---TESTIMONIAL---*/
+
+.quote {
+  position: relative;
+  letter-spacing: .03em;
+  margin-bottom: .5rem;
+  
+  &:before {
+      position: absolute;
+      left: -.7em;
+  }
+  
+  &:after {
+
+      margin-right: -1rem;
+  }
+}
+
+.quote--container {
+  margin: 4.5rem auto 0;
+  border-bottom: 2px dotted #C6D1BF;
+  padding-bottom: .5rem;
+}
+
+.quote--highlight {
+  color: #D24335;
+}
+
+.quote--author {
+  font-size: .8rem;
+  text-align: right;
+  font-weight: 300;
+}
+
 
 @media (max-width:720px){
   .card {width:85%;}
