@@ -43,7 +43,7 @@ height: auto;
 /*-----PARALLAX-----*/
 .parallax {
     /* The image used */
-    background-image: url("../assets/images/BMUN_Photo.JPG");
+    background-image: url("../assets/images/MUN_1920_team1.JPG");
   
     /* Set a specific height */
     min-height: 600px; 
@@ -57,7 +57,7 @@ height: auto;
   
 .parallax-about {
     /* The image used */
-    background-image: url("../assets/images/SFMUN_Photo.jpg");
+    background-image: url("../assets/images/MUN_1920_team4.JPG");
   
     /* Set a specific height */
     min-height: 600px; 
@@ -71,7 +71,7 @@ height: auto;
 
 .parallax-conference {
     /* The image used */
-    background-image: url("../assets/images/Simulation_Photo.jpeg");
+    background-image: url("../assets/images/MUN_1920_team2.JPG");
   
     /* Set a specific height */
     min-height: 600px; 
@@ -85,7 +85,7 @@ height: auto;
 
 .parallax-contact {
     /* The image used */
-    background-image: url("../assets/images/BMUN_Photo_2.JPG");
+    background-image: url("../assets/images/MUN_1920_team3.JPG");
   
     /* Set a specific height */
     min-height: 600px; 
@@ -99,7 +99,7 @@ height: auto;
 
 .parallax-photos {
   /* The image used */
-  background-image: url("../assets/images/Oracle_Photo.JPG");
+  background-image: url("../assets/images/MUN_1920_team3.JPG");
 
   /* Set a specific height */
   min-height: 600px; 
@@ -113,7 +113,7 @@ height: auto;
 
 .parallax-isdnd {
   /* The image used */
-  background-image: url("../assets/images/SFMUN_Photo_2.JPG");
+  background-image: url("../assets/images/MUN_1920_team4.JPG");
 
   /* Set a specific height */
   min-height: 600px; 
@@ -127,7 +127,7 @@ height: auto;
 
 .parallax-leadership {
   /* The image used */
-  background-image: url("../assets/images/Oracle_Photo_2.JPEG");
+  background-image: url("../assets/images/MUN_1920_team4.JPG");
 
   /* Set a specific height */
   min-height: 600px; 
